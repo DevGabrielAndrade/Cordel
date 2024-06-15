@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+:root{
+    --fonte1: Arial;
+    --fonte2: "Sriracha", cursive;
+    --fonte3: "Playwrite GB S" , cursive;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100dvh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1em;
+}
+
+header{
+    background-color: #010150;
+    color: white;
+    text-align: center;
+    font-size: 3.7vw;
+}
+
+header h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte1);
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.8em;
+    padding-left: 25px ;
+    font-family: var(--fonte3);
+    font-weight: 400;
+    font-size: 3.2vw;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: #010150;
+    color: white;
+}
+
+section.imagem p{
+    background-color: #00002088;
+    display: inline-block;
+    padding: 5px;
+}
+
+footer{
+    background-color: #010150;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
