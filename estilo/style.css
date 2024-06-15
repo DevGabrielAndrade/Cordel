@@ -25,7 +25,7 @@ header{
     background-color: #010150;
     color: white;
     text-align: center;
-    font-size: 3.7vw;
+    font-size: 2.7vw;
 }
 
 header h1{
@@ -55,7 +55,11 @@ section{
     padding-left: 25px ;
     font-family: var(--fonte3);
     font-weight: 400;
-    font-size: 3.2vw;
+    font-size: 2.2vw;
+}
+
+section p{
+    padding-bottom: 2em;
 }
 
 section.normal{
@@ -66,12 +70,25 @@ section.normal{
 section.imagem{
     background-color: #010150;
     color: white;
+    box-shadow: inset 7px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem p{
     background-color: #00002088;
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 0px black;
+}
+
+section#img01 { 
+    background-image: url(../imagens/back1.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(../imagens/back2.jpg);
 }
 
 footer{
